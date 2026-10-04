@@ -3,13 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#173b31" />
-  <meta name="description" content="Angel Salon & Academy, Ratlam — hair, skin, nails, makeup and bridal beauty services on 80 Feet Road, opposite Mahadev Mandir." />
-  <title>Angel Salon & Academy — Ratlam</title>
+  <meta name="theme-color" content="#F9F8F6" />
+  <meta name="description" content="Angel Salon & Academy, Ratlam — premium hair, skin, nails, makeup and bridal beauty services." />
+  <title>Angel Salon & Academy</title>
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css?v=3" />
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 </head>
 <body>
   <div class="announcement">RATLAM BRANCH · OPEN DAILY 10:00 AM — 8:00 PM</div>
@@ -25,135 +30,167 @@
     <nav class="desktop-nav" aria-label="Primary navigation">
       <a href="#services">Services</a>
       <a href="#experience">Experience</a>
+      <a href="#academy">Academy</a>
       <a href="#reviews">Reviews</a>
       <a href="#visit">Visit</a>
     </nav>
-    <a class="nav-cta" href="https://wa.me/919993392044?text=Hi%20Angel%20Salon%2C%20I%27d%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener">Book</a>
+    <a class="nav-cta button-primary" href="https://wa.me/919993392044" target="_blank" rel="noopener">Book</a>
   </header>
 
   <main>
     <section class="hero">
-      <div class="hero-media">
-        <img src="https://res.cloudinary.com/dyhlddvzy/image/upload/v1747633282/uploads/images/1747633282227-I6.jpg" alt="Elegant modern salon interior" />
-        <div class="hero-shade"></div>
-      </div>
       <div class="hero-content">
-        <p class="eyebrow">RATLAM · 80 FEET ROAD</p>
-        <h1>Grace.<br><em>Glamour.</em><br>You.</h1>
-        <p class="hero-copy">A beauty studio for polished everyday looks, hair transformations, skin rituals and bridal moments — delivered with care and precision.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="https://wa.me/919993392044?text=Hi%20Angel%20Salon%2C%20I%27d%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener">Book on WhatsApp</a>
-          <a class="button button-ghost" href="#services">Explore services</a>
+        <p class="eyebrow hero-anim">RATLAM · 80 FEET ROAD</p>
+        <h1 class="hero-anim">Mastery.<br><em>Glamour.</em><br>Artistry.</h1>
+        <p class="hero-copy hero-anim">A luxury beauty studio and professional academy. Experience premium salon services or build your career with our expert-led training programs.</p>
+        <div class="hero-actions hero-anim">
+          <a class="button button-primary" href="https://wa.me/919993392044" target="_blank" rel="noopener">Book an Appointment</a>
+          <a class="button button-outline" href="#academy">Explore Academy</a>
         </div>
-        <div class="hero-meta">
+        <div class="hero-meta hero-anim">
           <div><strong>4.8</strong><span>Google rating</span></div>
           <div><strong>10–8</strong><span>Daily hours</span></div>
           <div><strong>Unisex</strong><span>Beauty studio</span></div>
         </div>
       </div>
+      <div class="hero-visual hero-anim">
+        <div class="hero-media">
+          <img src="https://res.cloudinary.com/dyhlddvzy/image/upload/v1747633282/uploads/images/1747633282227-I6.jpg" alt="Elegant modern salon interior" />
+        </div>
+      </div>
     </section>
 
     <section class="trust-strip">
-      <span>Hair artistry</span><i></i><span>Bridal beauty</span><i></i><span>Skin care</span><i></i><span>Nails &amp; spa</span>
+      <div class="ticker-content">
+        <span>Hair artistry</span><i></i><span>Bridal beauty</span><i></i><span>Professional training</span><i></i><span>Masterclasses</span><i></i>
+        <span>Hair artistry</span><i></i><span>Bridal beauty</span><i></i><span>Professional training</span><i></i><span>Masterclasses</span><i></i>
+        <span>Hair artistry</span><i></i><span>Bridal beauty</span><i></i><span>Professional training</span><i></i><span>Masterclasses</span><i></i>
+        <span>Hair artistry</span><i></i><span>Bridal beauty</span><i></i><span>Professional training</span><i></i><span>Masterclasses</span><i></i>
+        <span>Hair artistry</span><i></i><span>Bridal beauty</span><i></i><span>Professional training</span><i></i><span>Masterclasses</span><i></i>
+        <span>Hair artistry</span><i></i><span>Bridal beauty</span><i></i><span>Professional training</span><i></i><span>Masterclasses</span><i></i>
+        <span>Hair artistry</span><i></i><span>Bridal beauty</span><i></i><span>Professional training</span><i></i><span>Masterclasses</span><i></i>
+        <span>Hair artistry</span><i></i><span>Bridal beauty</span><i></i><span>Professional training</span><i></i><span>Masterclasses</span>
+      </div>
     </section>
 
     <section class="section intro" id="experience">
-      <div class="section-kicker">THE ANGEL EXPERIENCE</div>
-      <div class="split-heading">
+      <div class="section-kicker fade-up">THE ANGEL EXPERIENCE</div>
+      <div class="split-heading fade-up">
         <h2>Beauty that feels <em>personal.</em></h2>
         <p>Angel Salon focuses on personalized beauty care — from advanced hair repair and creative colour to makeup, skincare and finishing services.</p>
       </div>
       <div class="experience-grid">
-        <article class="feature-card feature-image">
-          <img src="https://eadn-wc03-9258777.nxedge.io/wp-content/uploads/2024/01/Image-4-1024x683.jpg" alt="Modern styling stations with warm lighting" loading="lazy" />
+        <article class="feature-card feature-image fade-up">
+          <img src="https://eadn-wc03-9258777.nxedge.io/wp-content/uploads/2024/01/Image-4-1024x683.jpg" alt="Modern styling stations" loading="lazy" />
           <div class="overlay-copy"><span>01</span><strong>Modern styling</strong><p>Thoughtful stations, clean details and an atmosphere designed to make your appointment feel unhurried.</p></div>
         </article>
-        <article class="feature-card plain-card">
+        <article class="feature-card plain-card fade-up">
           <span class="feature-number">02</span>
           <h3>Personalized care</h3>
           <p>Every service is adapted to your style, hair, skin and occasion rather than treated as a one-size-fits-all routine.</p>
           <div class="mini-list"><span>Consultation-led</span><span>Premium products</span><span>Trend-aware</span></div>
         </article>
-        <article class="feature-card feature-image feature-tall">
-          <img src="https://godbarber.in/images/salon-interior-2.jpg" alt="Styling and makeup service in a professional salon" loading="lazy" />
+        <article class="feature-card feature-image feature-tall fade-up">
+          <img src="https://godbarber.in/images/salon-interior-2.jpg" alt="Styling and makeup service" loading="lazy" />
           <div class="overlay-copy"><span>03</span><strong>Made for moments</strong><p>From a clean-up and haircut to wedding-ready makeup, we build the look around the occasion.</p></div>
         </article>
       </div>
     </section>
 
-    <section class="section services" id="services">
-      <div class="section-kicker">WHAT WE DO</div>
-      <div class="split-heading">
+    <section class="section services-section" id="services">
+      <div class="section-kicker fade-up">WHAT WE DO</div>
+      <div class="split-heading fade-up">
         <h2>Your look, <em>your way.</em></h2>
         <p>Choose a focused service or build a complete transformation. Ask the team for the right combination for your hair, skin or event.</p>
       </div>
       <div class="service-grid">
-        <article class="service-item"><span>01</span><div><h3>Hair Styling</h3><p>Haircuts, blow-dries, event styling and polished everyday looks.</p><small>Cut · Style · Blow Dry</small></div></article>
-        <article class="service-item"><span>02</span><div><h3>Hair Colour &amp; Repair</h3><p>Balayage, highlights, creative colour, keratin and smoothening treatments.</p><small>Balayage · Colour · Repair</small></div></article>
-        <article class="service-item"><span>03</span><div><h3>Makeup Artistry</h3><p>Bridal, party and occasion makeup designed to photograph beautifully and last.</p><small>Bridal · Party · HD</small></div></article>
-        <article class="service-item"><span>04</span><div><h3>Skin Care</h3><p>Facials, clean-ups and rejuvenating beauty treatments for fresh, radiant skin.</p><small>Facial · Clean-up · Glow</small></div></article>
-        <article class="service-item"><span>05</span><div><h3>Hands &amp; Feet</h3><p>Manicure, pedicure, nail care and relaxing spa treatments.</p><small>Manicure · Pedicure · Nail Art</small></div></article>
-        <article class="service-item"><span>06</span><div><h3>Beauty Essentials</h3><p>Threading, waxing, brow shaping and finishing services for everyday grooming.</p><small>Threading · Waxing · Brows</small></div></article>
+        <article class="service-item fade-up"><span>01</span><div><h3>Hair Styling</h3><p>Haircuts, blow-dries, event styling and polished everyday looks.</p><small>Cut · Style · Blow Dry</small></div></article>
+        <article class="service-item fade-up"><span>02</span><div><h3>Hair Colour</h3><p>Balayage, highlights, creative colour, keratin and smoothening treatments.</p><small>Balayage · Colour · Repair</small></div></article>
+        <article class="service-item fade-up"><span>03</span><div><h3>Makeup Artistry</h3><p>Bridal, party and occasion makeup designed to photograph beautifully and last.</p><small>Bridal · Party · HD</small></div></article>
+        <article class="service-item fade-up"><span>04</span><div><h3>Skin Care</h3><p>Facials, clean-ups and rejuvenating beauty treatments for fresh, radiant skin.</p><small>Facial · Clean-up · Glow</small></div></article>
+        <article class="service-item fade-up"><span>05</span><div><h3>Hands &amp; Feet</h3><p>Manicure, pedicure, nail care and relaxing spa treatments.</p><small>Manicure · Pedicure · Nail Art</small></div></article>
+        <article class="service-item fade-up"><span>06</span><div><h3>Essentials</h3><p>Threading, waxing, brow shaping and finishing services for everyday grooming.</p><small>Threading · Waxing · Brows</small></div></article>
+      </div>
+    </section>
+
+    <section class="section academy-section" id="academy">
+      <div class="section-kicker fade-up">ANGEL ACADEMY</div>
+      <div class="split-heading fade-up">
+        <h2>Shape your career in <em>beauty.</em></h2>
+        <p>Comprehensive training programs designed for beginners and professionals. Learn the art of hair, makeup, and skin from industry experts.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-item fade-up"><span>01</span><div><h3>Professional Makeup</h3><p>Master bridal, HD, and editorial makeup techniques with hands-on practice.</p><small>Basic to Advanced</small></div></article>
+        <article class="service-item fade-up"><span>02</span><div><h3>Hair Artistry</h3><p>Learn advanced coloring, balayage, keratin treatments, and modern cutting.</p><small>Diploma in Hair</small></div></article>
+        <article class="service-item fade-up"><span>03</span><div><h3>Skin Aesthetics</h3><p>Deep dive into skin types, facials, advanced treatments, and consultation.</p><small>Skin Care Specialist</small></div></article>
       </div>
     </section>
 
     <section class="editorial-band">
-      <div class="editorial-image"><img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1400&q=85" alt="Beauty makeup detail" loading="lazy" /></div>
-      <div class="editorial-copy">
-        <p class="eyebrow dark">FOR YOUR BIG DAY</p>
+      <div class="editorial-image fade-up"><img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1400&q=85" alt="Beauty makeup detail" loading="lazy" /></div>
+      <div class="editorial-copy fade-up">
+        <p class="eyebrow">FOR YOUR BIG DAY</p>
         <h2>Bridal beauty,<br><em>beautifully considered.</em></h2>
         <p>Bridal makeup, hair styling and beauty prep can be planned as one appointment journey. Tell the team your event date and the look you have in mind.</p>
-        <a class="text-link" href="https://wa.me/919993392044?text=Hi%20Angel%20Salon%2C%20I%27d%20like%20to%20enquire%20about%20bridal%20services." target="_blank" rel="noopener">Enquire for bridal →</a>
+        <a class="text-link" href="https://wa.me/919993392044" target="_blank" rel="noopener">Enquire for bridal →</a>
       </div>
     </section>
 
     <section class="section reviews" id="reviews">
-      <div class="section-kicker">CLIENT NOTES</div>
-      <div class="rating-head">
+      <div class="section-kicker fade-up">CLIENT NOTES</div>
+      <div class="rating-head fade-up">
         <div><strong>4.8</strong><span>Google rating</span></div>
         <p>Clients publicly highlight the salon's hair transformations, attentive service, quality of work and bridal makeup experience.</p>
       </div>
       <div class="review-grid">
-        <article><div class="stars">★★★★★</div><p>Hair transformations and styling are the recurring highlight across customer feedback.</p><span>CLIENT FEEDBACK</span></article>
-        <article><div class="stars">★★★★★</div><p>Bridal clients mention punctuality, finish quality and the care taken across wedding functions.</p><span>BRIDAL CLIENTS</span></article>
-        <article><div class="stars">★★★★★</div><p>Regular visitors frequently point to professional staff, service quality and a welcoming atmosphere.</p><span>REGULAR VISITORS</span></article>
+        <article class="fade-up"><div class="stars">★★★★★</div><p>Hair transformations and styling are the recurring highlight across customer feedback.</p><span>CLIENT FEEDBACK</span></article>
+        <article class="fade-up"><div class="stars">★★★★★</div><p>Bridal clients mention punctuality, finish quality and the care taken across wedding functions.</p><span>BRIDAL CLIENTS</span></article>
+        <article class="fade-up"><div class="stars">★★★★★</div><p>Regular visitors frequently point to professional staff, service quality and a welcoming atmosphere.</p><span>REGULAR VISITORS</span></article>
       </div>
     </section>
 
     <section class="visit" id="visit">
-      <div class="visit-copy">
+      <div class="visit-copy fade-up">
         <p class="eyebrow">COME BY</p>
         <h2>See you at<br><em>Angel Salon.</em></h2>
         <p><strong>80 Feet Road</strong><br>Opposite Mahadev Mandir<br>Ratlam, Madhya Pradesh 457001</p>
         <div class="visit-actions">
-          <a class="button button-light" href="tel:+919993392044">Call the salon</a>
-          <a class="button button-outline-light" href="https://www.google.com/maps/search/?api=1&query=23.3387003,75.0281748" target="_blank" rel="noopener">Get directions</a>
+          <a class="button button-primary" href="tel:+919993392044">Call the salon</a>
+          <a class="button button-outline" href="https://www.google.com/maps/search/?api=1&query=23.3387003,75.0281748" target="_blank" rel="noopener">Get directions</a>
         </div>
         <div class="hours"><span>Mon–Sun</span><strong>10:00 AM — 8:00 PM</strong></div>
       </div>
-      <div class="map-card">
-        <div class="map-pin">A</div>
-        <div>
-          <strong>Angel Salon &amp; Academy</strong>
-          <span>80 Feet Road, opposite Mahadev Mandir</span>
-        </div>
-        <a href="https://www.google.com/maps/search/?api=1&query=23.3387003,75.0281748" target="_blank" rel="noopener">Open in Maps ↗</a>
+      <div class="map-container fade-up">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3663.3674023993212!2d75.02559451139452!3d23.338700278865627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3963fff807d2a37b%3A0x6a4d39ea7dd8481a!2sAngel%20Salon!5e0!3m2!1sen!2sin!4v1791096194637!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <div class="footer-brand"><span class="brand-mark">A</span><div><strong>ANGEL</strong><small>SALON &amp; ACADEMY · RATLAM</small></div></div>
-    <div class="footer-links"><a href="#services">Services</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a><a href="tel:+919993392044">+91 99933 92044</a></div>
-    <p>© <span id="year"></span> Angel Salon &amp; Academy. Designed as a lightweight static website.</p>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="brand-mark">A</span>
+        <div><strong>ANGEL</strong><small>SALON &amp; ACADEMY · RATLAM</small></div>
+      </div>
+      <div class="footer-links">
+        <a href="#services">Services</a>
+        <a href="#academy">Academy</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#visit">Visit</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> Angel Salon &amp; Academy. Designed with elegance.</p>
+      <a href="tel:+919993392044" class="footer-contact">+91 99933 92044</a>
+    </div>
   </footer>
 
   <div class="mobile-bar">
     <a href="tel:+919993392044"><span>Call</span><strong>Salon</strong></a>
-    <a class="mobile-book" href="https://wa.me/919993392044?text=Hi%20Angel%20Salon%2C%20I%27d%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener"><span>Book</span><strong>WhatsApp</strong></a>
+    <a class="mobile-book" href="https://wa.me/919993392044" target="_blank" rel="noopener"><span>Book</span><strong>WhatsApp</strong></a>
     <a href="https://www.google.com/maps/search/?api=1&query=23.3387003,75.0281748" target="_blank" rel="noopener"><span>Open</span><strong>Maps</strong></a>
   </div>
 
-  <script src="script.js"></script>
+  <script src="script.js?v=3"></script>
 </body>
 </html>
